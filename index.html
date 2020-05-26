@@ -1,1 +1,255 @@
-<h1>This is an HTML file</h1>
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <title>My Notes</title>
+  <style>
+  p{color: red; text-align: center;}
+
+  ol {display: flex;}
+  li{color: blue;}
+
+  .class1 {
+
+  text-align: center;
+  text-emphasis:
+  }
+
+  .class2 {
+    color: cyan;
+  }
+
+</style>
+    <script>
+
+    </script>
+
+    <meta name ="Description" content = "Notes on HTML">
+</head>
+
+<body>
+
+Markup is essentially the elements that allow
+for adding <em>style</em> to plain HTML text.
+
+<p>There is also a <strong>strong</strong> tag that makes text bold.</p>
+
+I have learned how to use the <br> tag for a line break
+Also the  <p>paragraph tag</p> for making a new paragraph
+
+Using the <mark>mark</mark> tag allows for highlighting the text
+
+There is also the <sub>subscript</sub> tag
+And the <sup> superscript </sup>  tag
+
+<br>I have learned about combinations of tags that can work
+nested within each other. For example: <p><em>E = mc<sup>2</sup></em></p>
+
+<p>However, there are some elements that cannot be overlapped.
+  <br> for example, you can't put a paragraph tag within a paragraph
+<br> you also can't partially overlap tags; they have to be totally nested
+within each other
+  </p>
+
+<h1>My chemistry notes</h1>
+<p><strong>Molecule name</strong>: <em>Sulfur hexafluoride</em></p>
+<p><strong>Molecular formula</strong>: C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></p>
+<p><strong>Note:</strong> This gas has a much higher density than air. Basically the <br> opposite of helium. <mark>Crazy!</mark></p>
+
+<div>
+<p> You can also use the div label in order to make divisions</p>
+
+</div>
+
+I can use the ol and li elements to make an ordered list: <br>
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
+
+<br>
+
+Or an unordered list with the ul and li elements: <br>
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+
+A list item (li) cannot stand on its own. It must be contained within ol or ul <br>
+
+You can also nest list elements within other list elements <br>
+<h2>How to move to California: </h2>
+<ol>
+  <li>Pack up your stuff
+
+<ul>
+  <li>Kitchen stuff</li>
+  <li>Bedroom stuff</li>
+
+  <li>Garage stuff</li>
+</ul>
+  </li>
+  <li>Drive to California</li>
+  <li>Unpack stuff into tiny apartment</li>
+</ol>
+
+An li element can only occur within a list and cannot occur within another element
+Therefore, the closing tags are not needed for li elements
+But they are needed for ul and ol
+
+<p>It turns out a closing tag is not required for p (paragraph)
+
+  <ul>
+    <li>Mammals
+      <ol>
+        <li>Raccoons
+        <li>Gorillas
+      </ol>
+    <li>Reptiles
+      <ol>
+        <li>Iguanas
+        <li>Cobras
+      </ol>
+    <li>Birds
+      <ol>
+        <li>Ostriches
+        <li>Ravens
+      </ol>
+  </ul>
+  <p style="color: blue; " > This text is blue</p>
+
+<br>Example of a link: <br>
+  <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+
+  <br>
+
+Here is an example of embedding an image: <br>
+<img style = "width: 198.55px; height: 132.173px; display: block;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.healthygrocerygirl.com%2Fwp-content%2Fuploads%2F2015%2F01%2FNavelOrange.jpg&f=1&nofb=1" alt="Orange">
+<p>
+Here is an image that also serves as a link:
+<br>
+<a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.healthygrocerygirl.com%2Fwp-content%2Fuploads%2F2015%2F01%2FNavelOrange.jpg&f=1&nofb=1"><img style = "width: 198.55px; height: 132.173px; display: block;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.healthygrocerygirl.com%2Fwp-content%2Fuploads%2F2015%2F01%2FNavelOrange.jpg&f=1&nofb=1" alt="Orange"></a>
+</p>
+<br>
+As it turns out, if you      d embed an image with only the image name (for example
+ "kittens.jpg", then when you try to render the html file it will search for that
+ image in the same folder as the html file.
+<br>
+This is called using a relative url. If you do not include :// it will assume it is
+a relative url
+<br>
+
+Apparently you can also use style attributes to change the styling(e.g. color)<br>
+of your text. For example:<br>
+<p style="color: red">this is a red paragraph!</p>
+
+<br>style elements go at the top, but style attributes can go within the p or div elementbr
+they are called inline styles
+
+<p style = "text-align: center;"> This is a haiku</p>
+<p style = "text-align: center;"> So I want each line centered </p>
+<p style = "text-align: center;" > Let's make it stylish</p>
+<p style = "text-align: center; color: blue;"> This is centered and blue</p>
+
+<p style =  color:blue;text-align:center; > Is this text still centered and blue?</p>
+
+<p>I <em style = "color: red;">love</em>CSS!</p>
+
+<style>
+  a {
+    color: green;
+  }
+</style>
+
+<p style="font-size: 24pt;"> I <em style="color: red;">love </em>CSS!</p>
+
+<br>You can also use classes. This is an example of them: class1 and class2.<br>
+<p class="class1"> I am writing this using class1</p>
+<p class = "class2">I am writing this using class2</p>
+
+You can also use the id attribute.
+
+<style>
+
+body {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+#testID {
+  font-weight: bold;
+  width: 50%;
+}
+
+.class1 {
+  font-family: cursive;
+  border: 10px solid red;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+  color: red;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+li {
+  font-size: 1.5em;
+}
+  .blue_box {
+    float: right;
+    border: 10px solid blue;
+    padding: 0.5em;
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+  }
+
+
+.red_box {
+float: right;
+border: 10px solid red;
+padding: 0.5em;
+width: 20px;
+height: 20px;
+margin: 5px;
+
+}
+
+</style>
+
+<div class="blue_box">Horray, a box! </div>
+<div class = "red_box"> </div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi sit amet mauris commodo. Vitae elementum curabitur vitae nunc sed velit dignissim sodales ut. Volutpat est velit egestas dui id ornare arcu. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Et malesuada fames ac turpis. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Sed risus ultricies tristique nulla. At auctor urna nunc id. Pharetra convallis posuere morbi leo. Quam quisque id diam vel quam elementum pulvinar etiam. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Amet risus nullam eget felis eget nunc lobortis.</p>
+
+
+<div id="testID">
+This is using the testID ID.
+</div>
+
+
+
+<h1>To-do: </h1>
+
+<ul>
+  <li class="highlight done">Buy milk</li>
+  <li class="highlight">Buy eggs</li>
+  <li class="done">Buy flour</li>
+  <li class = "highlight">Make waffles</li>
+  <li>Do laundry</li>
+  <li class = "highlight">Learn to code</li>
+  <li class = "highlight">Build a robot</li>
+</ul>
+
+</body>
+
+</html>
