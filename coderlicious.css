@@ -1,0 +1,44 @@
+
+.toTheRight {
+float: right;
+
+
+}
+
+.centered {
+  text-align: center;
+}
+
+.rightalign {
+  text-align: right;
+  float: right;
+}
+
+.leftalign {
+  float: left;
+}
+
+.flexboxcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexboxelement {
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+font-weight: bold;
+
+}
+
+#topbar {
+  padding-bottom: 40px;
+}
+
+#reallybig {
+  text-align: center;
+  font-size: 100px;
+font-family: 'Abel', sans-serif;
+line-height: 20px;
+padding-bottom: 100px;
+}
