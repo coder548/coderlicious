@@ -31,6 +31,24 @@ font-weight: bold;
 
 }
 
+.shadowBox {
+  height: 300px;
+  width: 400px;
+  padding: 20px;
+
+  box-shadow: 5px 5px 10px grey;
+  margin: 20px;
+
+  border-radius: 10px;
+
+}
+
+.spacer {
+
+  width: 100%;
+  height: 150px;
+}
+
 #topbar {
   padding-bottom: 40px;
 }
@@ -39,8 +57,9 @@ font-weight: bold;
   text-align: center;
   font-size: 100px;
 font-family: 'Abel', sans-serif;
-line-height: 20px;
+line-height: 100px;
 padding-bottom: 100px;
+padding-top: 50px;
 }
 
 #icon {
@@ -50,4 +69,10 @@ padding-bottom: 100px;
   height: auto;
   padding-left: 40px;
 
+}
+
+
+#enrollMessage {
+  font-size: 50px;
+text-align: center;
 }
